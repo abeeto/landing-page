@@ -79,6 +79,7 @@ header ul {
     flex-wrap: wrap;
     flex: 1 1 0;
     gap: 8px;
+    min-height: 230px;
 }
 
 .hero-image{
