@@ -72,25 +72,23 @@ header ul {
     justify-content: space-between;
     gap: 12px;
 }
-.hero-banner * {
-    flex: 1;
-}
+
 .hero-cta-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 5px;
-    min-height: 210px;
+    flex: 1 1 0;
+    gap: 8px;
 }
 
 .hero-image{
     background-color: #7d8a9c;
     color: white;
-    flex: 1 0 0;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
+    flex: 1 1 0;
 }
 .hero-title{
     font-size: 48px;
@@ -112,7 +110,7 @@ header ul {
     border: none;
     flex: 0 0 auto;
     max-width: fit-content;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 .sign-up-btn:hover{
