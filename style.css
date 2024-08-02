@@ -6,7 +6,7 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-header, .hero-banner, .main-content, footer {
+header, .hero-banner, .random-information-section, footer {
     padding: 0 300px;
 }
 
@@ -117,4 +117,45 @@ header ul {
 .sign-up-btn:hover{
     cursor: pointer;
     background-color: #478dfc;
+}
+
+.random-information-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.random-information-title{
+    font-size: 36px;
+    font-weight:800;
+    color:#1f2937;
+    flex: 1 0 auto;
+}
+
+.random-information-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.box-with-text{
+    width: 200px;
+}
+
+.box {
+    height: 200px;
+    flex: 1 0 auto;
+    border: 5px solid #478dfc;
+    border-radius: 20px;
+}
+
+.text-under-box{
+    text-align: center;
+    font-size: 18px;
+    font-weight:300;
+    font-style: italic;
+    color: #8b8b8b;
+    text-wrap: wrap;
 }
