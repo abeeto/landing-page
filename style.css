@@ -6,7 +6,7 @@ body{
     font-family: "Roboto", sans-serif   ;
 }
 
-header, .hero-banner, .random-information-section,.quote-section, footer {
+header, .hero-banner, .random-information-section,.quote-section,.cta-section, footer {
     padding: 0 300px;
 }
 
@@ -79,7 +79,7 @@ header ul {
     flex-wrap: wrap;
     flex: 1 1 0;
     gap: 8px;
-    min-height: 230px;
+    min-height: 180px;
 }
 
 .hero-image{
@@ -94,7 +94,7 @@ header ul {
 .hero-title{
     font-size: 48px;
     color: #f9faf8;
-    font-weight: 800;    
+    font-weight: 800;   
 }
 .hero-content{
     font-size: 18px;
@@ -191,3 +191,44 @@ header ul {
     font-size: 20px;
     font-weight: 700;
 }
+
+.cta-section {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.blue-cta-callout {
+    padding: 50px 160px;
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-text{
+    flex: 1;
+    color: #dae1eb;
+}
+
+.cta-title-text{
+    margin:0;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.cta-section-btn{
+    border: 2px solid white;
+    padding: 3px 30px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    color: white;
+}
+
